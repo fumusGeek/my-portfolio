@@ -55,7 +55,7 @@ const About = () => {
               modules={[Autoplay, Pagination, Navigation]}
               className="w-24 mt-32"
             >
-              <SwiperSlide className="flex justify-center">
+              <SwiperSlide className="ml-5">
                 <IoLogoJavascript className="tech-stack" />
               </SwiperSlide>
               <SwiperSlide>
@@ -100,7 +100,13 @@ const About = () => {
               <p className="grid-subtext">
                 I'm based in Indonesia, with remote work available.
               </p>
-              <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+              <a href="#contact" className="w-fill">
+                <Button
+                  name="Contact Me"
+                  isBeam
+                  containerClass="w-full mt-10"
+                />
+              </a>
             </div>
           </div>
         </div>
